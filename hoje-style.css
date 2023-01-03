@@ -1,0 +1,106 @@
+<style>
+/* Base
+   -------------------------------------------------- */
+
+html {
+    max-width: 18em;
+    margin: 0 auto;
+    padding: 1em;
+    font: 100% "Poppins", sans-serif;
+    text-align: center;
+    color: #363636;
+}
+
+body {
+   background: #fff;
+}
+
+
+/* Intro
+   -------------------------------------------------- */
+
+.intro {
+    margin-bottom: 0.85em;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Today
+   -------------------------------------------------- */
+
+.today-piece {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Piece positions
+   -------------------------------------------------- */
+
+.top {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.middle {
+    border-radius: 0;
+}
+.bottom {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+
+
+
+
+/* Piece categories
+   -------------------------------------------------- */
+
+.day,
+.year {
+    font-size: 0.65em;
+    font-weight: 500;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: #363636;
+}
+.month {
+    padding-top: 1.75rem;
+    padding-bottom: 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+.date {
+    padding: 1rem;
+    font-size: 3.2em;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+/* Footer
+   -------------------------------------------------- */
+
+footer {
+    margin-top: 0.75rem;
+    font-size: 0.65em;
+}
+</style>
